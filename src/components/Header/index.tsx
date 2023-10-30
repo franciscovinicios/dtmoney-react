@@ -6,6 +6,7 @@ import {
   NewTransactionsButton,
 } from "./styles";
 import logoImg from "../../assets/logo.svg";
+import { NewTransactionModal } from "../NewTransactionModal";
 export function Header() {
   return (
     <HeaderContainer>
@@ -15,14 +16,7 @@ export function Header() {
           <Dialog.Trigger asChild>
             <NewTransactionsButton>Nova transação</NewTransactionsButton>
           </Dialog.Trigger>
-
-          <Dialog.Portal>
-            <Dialog.Overlay />
-            <Dialog.Content>
-              <Dialog.Title>Nova transação</Dialog.Title>
-              <Dialog.Close />
-            </Dialog.Content>
-          </Dialog.Portal>
+          <NewTransactionModal />
         </Dialog.Root>
       </HeaderContent>
     </HeaderContainer>
