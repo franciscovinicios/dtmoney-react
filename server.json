@@ -11,7 +11,7 @@
     {
       "id": 2,
       "description": "Supermarket",
-      "type": "income",
+      "type": "outcome",
       "category": "Alimentacao",
       "price": 400,
       "createdAt": "2023-10-30T21:06:07.414Z"
