@@ -1,0 +1,20 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 4000,
+      "createdAt": "2023-10-30T21:06:07.414Z"
+    },
+    {
+      "id": 2,
+      "description": "Supermarket",
+      "type": "income",
+      "category": "Alimentacao",
+      "price": 400,
+      "createdAt": "2023-10-30T21:06:07.414Z"
+    }
+  ]
+}
