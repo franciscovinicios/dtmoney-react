@@ -1,5 +1,4 @@
 import { Header } from "../../components/Header";
-import { SearchForm } from "../../components/SearchForm";
 import { Summary } from "../../components/Summary/inde";
 import {
   Container,
@@ -10,6 +9,7 @@ import {
 import { TransactionsContext } from "../../context/TransactionsContext";
 import { useContext } from "react";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
+import { SearchForm } from "./components/SearchForm";
 
 export function Transactions() {
   const { transactions } = useContext(TransactionsContext);
